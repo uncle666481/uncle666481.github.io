@@ -462,6 +462,14 @@ a:hover {
   border-bottom: 1px solid var(--line);
 }
 
+.work-card.text-only-work {
+  grid-template-columns: 1fr;
+}
+
+.work-card.text-only-work .work-copy {
+  max-width: 780px;
+}
+
 .work-media {
   position: relative;
   display: grid;
